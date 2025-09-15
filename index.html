@@ -8,12 +8,14 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+    <h1>Calculator by Vinleee</h1>
     <div class="calculator">
-        <input type="text" id="display" disabled>
+        <div id="history"></div>
+        <input type="text" id="display" readonly>
         <div class="buttons">
             <button class="btn" data-value="C">C</button>
-            <button class="btn" data-value="+/-">+/-</button>
-            <button class="btn" data-value="%">%</button>
+            <button class="btn operator" data-value="+/-">+/-</button>
+            <button class="btn operator" data-value="%">%</button>
             <button class="btn operator" data-value="/">/</button>
             <button class="btn" data-value="7">7</button>
             <button class="btn" data-value="8">8</button>
@@ -26,7 +28,7 @@
             <button class="btn" data-value="1">1</button>
             <button class="btn" data-value="2">2</button>
             <button class="btn" data-value="3">3</button>
-            <button class="btn" data-value="+">+</button>
+            <button class="btn operator" data-value="+">+</button>
             <button class="btn" data-value="del">DEL</button>
             <button class="btn" data-value="0">0</button>
             <button class="btn" data-value=".">.</button>
