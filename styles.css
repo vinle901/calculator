@@ -1,0 +1,26 @@
+.buttons {
+    display: grid;
+    width: 500px;
+    gap: 10px 10px;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px auto;
+}
+.buttons button {
+  aspect-ratio: 1 / 1; 
+}
+input[type="text"] {
+    width: 500px;
+    height: 80px;
+    font-size: 2em;
+    text-align: right;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    display: block;
+}
+.calculator {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
